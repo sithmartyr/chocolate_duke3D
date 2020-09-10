@@ -248,10 +248,6 @@
 				>
 			</File>
 			<File
-				RelativePath="src\enet\memory.c"
-				>
-			</File>
-			<File
 				RelativePath="src\enet\packet.c"
 				>
 			</File>

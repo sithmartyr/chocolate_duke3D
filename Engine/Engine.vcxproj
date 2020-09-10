@@ -16,14 +16,14 @@
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>StaticLibrary</ConfigurationType>
-    <PlatformToolset>v110</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
     <UseOfMfc>false</UseOfMfc>
     <CharacterSet>MultiByte</CharacterSet>
     <WholeProgramOptimization>false</WholeProgramOptimization>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
     <ConfigurationType>StaticLibrary</ConfigurationType>
-    <PlatformToolset>v110</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
     <UseOfMfc>false</UseOfMfc>
     <CharacterSet>MultiByte</CharacterSet>
   </PropertyGroup>
@@ -98,6 +98,7 @@
     <ClCompile Include="src\cache.c" />
     <ClCompile Include="src\display.c" />
     <ClCompile Include="src\draw.c" />
+    <ClCompile Include="src\enet\callbacks.c" />
     <ClCompile Include="src\Engine.c" />
     <ClCompile Include="src\filesystem.c" />
     <ClCompile Include="src\fixedPoint_math.c" />
@@ -105,7 +106,6 @@
     <ClCompile Include="src\mmulti_stable.cpp" />
     <ClCompile Include="src\enet\host.c" />
     <ClCompile Include="src\enet\list.c" />
-    <ClCompile Include="src\enet\memory.c" />
     <ClCompile Include="src\enet\packet.c" />
     <ClCompile Include="src\enet\peer.c" />
     <ClCompile Include="src\enet\protocol.c" />

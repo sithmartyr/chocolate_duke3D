@@ -29,9 +29,6 @@
     <ClCompile Include="src\enet\list.c">
       <Filter>enet</Filter>
     </ClCompile>
-    <ClCompile Include="src\enet\memory.c">
-      <Filter>enet</Filter>
-    </ClCompile>
     <ClCompile Include="src\enet\packet.c">
       <Filter>enet</Filter>
     </ClCompile>
@@ -67,6 +64,9 @@
     </ClCompile>
     <ClCompile Include="src\fixedPoint_math.c">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\enet\callbacks.c">
+      <Filter>enet</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
